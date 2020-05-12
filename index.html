@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css"/>
+
+    <title>TP JQUERY</title>
+  </head>
+  <body>
+
+<h1>TP</h1>
+    <div class="container">
+      <div class="Intro">
+        <div class="intro">
+
+        <p>Demander à l'aide d'un formulaire les 5 dernières notes d'un élève.
+        Calculer sa moyenne et déterminer son appréciation.
+        Si la moyenne de l'élève est supérieure ou égale à 0 et inférieure à 10, il aura comme appréciation : En dessous de la moyenne.
+        Si la moyenne de l'élève est supérieure ou égale à 10 et inférieure à 13, il aura comme appréciation : Moyen.
+        Si la moyenne de l'élève est supérieure ou égale à 13 et inférieure à 16, il aura comme appréciation : Bien.
+        Si la moyenne de l'élève est supérieure ou égale à 16 et inférieure à 20, il aura comme appréciation : Très bien.
+        Si la moyenne de l'élève est égale à 20, il aura comme appréciation : Excellent.
+        Afficher la moyenne et l'appréciation de l'élève.</p>
+      </div>
+    </div>
+    </div>
+
+
+    <!-- formulaire creation -->
+    <section class="container_1">
+      <form action="index.html" method="post">
+
+        <h2>Mathiew</h2>
+
+        <label for="firstname">Français</label>
+        <input  class="text" name="firstname" id="firstname" placeholder="Entrer votre nom">
+
+        <label for="lastname">Math</label>
+        <input  class="text" name="lastname" id="lastname" placeholder="Entrer votre prénom">
+
+        <label for="city">Anglais</label>
+        <input  class="text" name="city" id="city" placeholder="Entrer votre ville">
+
+        <label for="city">Musique</label>
+        <input  class="text" name="city" id="city" placeholder="Entrer votre ville">
+
+        <label for="city">Histoire</label>
+        <input  class="text" name="city" id="city" placeholder="Entrer votre ville">
+
+        <button type="button" onclick="validate() " name="submit">Moyenne</button>
+        <!-- la fonction click permet de detecter le bouton dans le javascript pour creer un evenement via la "function Validate" -->
+      </form>
+
+    </section>
+
+
+
+    <!-- script fontawesome -->
+      <script src="https://kit.fontawesome.com/b44ae913bc.js" crossorigin="anonymous"></script>
+      <!-- script JQUERY animation -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <!-- script JQUERY library -->
+      <script src="assets/js/script.js"></script>
+      <!-- script JQUERY library -->
+  </body>
+</html>
